@@ -6,7 +6,7 @@ import Button from './Button';
 const Title = styled.h2`
 font-size: ${props => props.theme.fontxxl};
 text-transform: capitalize;
-width:80%;
+width: 80%;
 color: ${props => props.theme.text};
 align-self: flex-start;
 
@@ -34,11 +34,8 @@ const SubTitle = styled.h3`
   align-self: flex-start;
   `
 const ButtonContainer = styled.div`
-width: 80%;
+  width: 80%;
   align-self: flex-start;
-
-
-
 `
 const TypeWriterText = () => {
   return (
@@ -82,7 +79,7 @@ const TypeWriterText = () => {
 </Title>
 <SubTitle>Discovering your self-taught side</SubTitle>
 <ButtonContainer>
-<Button text="Explore" link="#about" />
+<Button text='Explore' link="#about" />
 </ButtonContainer>
 </>
   );

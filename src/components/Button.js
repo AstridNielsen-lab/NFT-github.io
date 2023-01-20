@@ -42,7 +42,7 @@ position: relative;
 const Button = ({text, link}) => {
   return (
     <a href={'https://discord.gg/Q87eT73pPX'} aria-label={text} target="_blank" rel="noreferrer" >
-<Btn>{'💖Discord Coding Community College'}</Btn>
+<Btn>{'Discord Coding Community College'}</Btn>
 </a>
   )
 }
