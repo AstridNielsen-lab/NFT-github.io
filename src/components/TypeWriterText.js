@@ -44,30 +44,30 @@ const TypeWriterText = () => {
   return (
     <>
     <Title>
-    Discovering your self-taught side 
+    Accumulating Knowledge for the Future
       <Typewriter
       options={{
         autoStart: true,
         loop: true,
       }}
   onInit={(typewriter) => {
-    typewriter.typeString(`<span class= text-1>invest in yourself</span>`)
+    typewriter.typeString(`<span class= text-1>focus on studies</span>`)
       .callFunction(() => {
-        console.log('String typed out!');
+        console.log('String typed out!')
       })
       .pauseFor(2000)
-      .deleteAll()
+      .deleteAll();
 
       typewriter.typeString(`<span class= text-2>explore your full potential</span>`)
       .callFunction(() => {
-        console.log('String typed out!');
+        console.log('String typed out!')
       })
       .pauseFor(2000)
-      .deleteAll()
+      .deleteAll();
 
-      typewriter.typeString(`<span class= text-3>accumulate knowledge</span>`)
+      typewriter.typeString(`<span class= text-3>exercising the hippocampus</span>`)
       .callFunction(() => {
-        console.log('String typed out!');
+        console.log('String typed out!')
       })
       .pauseFor(2000)
       .deleteAll()
@@ -80,7 +80,7 @@ const TypeWriterText = () => {
 />
 
 </Title>
-<SubTitle>Be your teacher, I'm self-taught. Social School to Teach Programming</SubTitle>
+<SubTitle>Discovering your self-taught side </SubTitle>
 <ButtonContainer>
 <Button text="Explore" link="#about" />
 </ButtonContainer>
