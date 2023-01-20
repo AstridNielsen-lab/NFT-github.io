@@ -46,7 +46,7 @@ width: 3rem;
 height: 3rem;
 display: flex;
 justify-content: center;
-align-img: center;
+align-items: center;
 border-radius: 50%;
 
 background-color: ${props => props.theme.text};
