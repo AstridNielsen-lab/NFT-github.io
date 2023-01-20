@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Typewriter from 'typewriter-effect';
+import Button from './Button';
 
 const Title = styled.h2`
 font-size: ${props => props.theme.fontxxl};
@@ -31,9 +32,14 @@ const SubTitle = styled.h3`
   margin-bottom: 1rem;
   width: 80%;
   align-self: flex-start;
-
-
   `
+const ButtonContainer = styled.div`
+width: 80%;
+  align-self: flex-start;
+
+
+
+`
 const TypeWriterText = () => {
   return (
     <>
@@ -71,6 +77,9 @@ const TypeWriterText = () => {
 
 </Title>
 <SubTitle>Be your teacher, I'm self-taught. Social School to Teach Programming</SubTitle>
+<ButtonContainer>
+<Button text="Explore" link="#about" />
+</ButtonContainer>
 </>
   );
 };
