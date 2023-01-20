@@ -46,22 +46,26 @@ const TypeWriterText = () => {
     <Title>
     Discovering your self-taught side 
       <Typewriter
+      options={{
+        autoStart: true,
+        loop: true,
+      }}
   onInit={(typewriter) => {
-    typewriter.typeString(`<span class= text-1>teleported abductees👾</span>`)
+    typewriter.typeString(`<span class= text-1>invest in yourself</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
       .pauseFor(2000)
       .deleteAll()
 
-      typewriter.typeString(`<span class= text-2>successfully transported abductees⚛️</span>`)
+      typewriter.typeString(`<span class= text-2>explore your full potential</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
       .pauseFor(2000)
       .deleteAll()
 
-      typewriter.typeString(`<span class= text-3>completed knowledge transfer👨‍💻⚡</span>`)
+      typewriter.typeString(`<span class= text-3>accumulate knowledge</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
