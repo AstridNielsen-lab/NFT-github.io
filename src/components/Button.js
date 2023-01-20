@@ -42,7 +42,7 @@ position: relative;
 const Button = ({text, link}) => {
   return (
     <a href={'https://www.binance.com/pt-BR/nft/my-nfts/disparattechno'} aria-label={text} target="_blank" rel="noreferrer" >
-<Btn>{'NFT⚡Disparat'}</Btn>
+<Btn>{'NFT💖Disparat'}</Btn>
 </a>
   )
 }

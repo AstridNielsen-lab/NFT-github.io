@@ -15,7 +15,7 @@ span{
   font-family: "Akaya Telivigala", cursive;
  }
 .text-1{
-    color: red;
+    color: green;
  }
 .text-2{
     color: orange;
@@ -47,21 +47,21 @@ const TypeWriterText = () => {
     Discovering your self-taught side 
       <Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString(`<span class= text-1>teleported abductees⚡</span>`)
+    typewriter.typeString(`<span class= text-1>teleported abductees👾</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
       .pauseFor(2000)
       .deleteAll()
 
-      typewriter.typeString(`<span class= text-2>⚡successfully transported abductees</span>`)
+      typewriter.typeString(`<span class= text-2>successfully transported abductees⚛️</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
       .pauseFor(2000)
       .deleteAll()
 
-      typewriter.typeString(`<span class= text-3>completed knowledge transfer⚡</span>`)
+      typewriter.typeString(`<span class= text-3>completed knowledge transfer👨‍💻⚡</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
