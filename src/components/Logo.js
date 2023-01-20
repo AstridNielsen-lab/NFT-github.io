@@ -17,7 +17,7 @@ const Logo = () => {
     return (
       <LogoText>
         <Link to="/">
-        ⚡Dispərət Techno
+        ⚡Disparat
         </Link>
       </LogoText>
     )

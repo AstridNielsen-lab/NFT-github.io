@@ -14,7 +14,7 @@ span{
   font-family: "Akaya Telivigala", cursive;
  }
 .text-1{
-    color: blue;
+    color: red;
  }
 .text-2{
     color: orange;
@@ -38,14 +38,14 @@ const TypeWriterText = () => {
   return (
     <>
     <Title>
-      Discover the new way to learn in community 
+    Discovering your self-taught side 
       <Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString('at last count 466 people learning')
+    typewriter.typeString(`<span class= text-1>teleported abductees⚡</span>`)
       .callFunction(() => {
         console.log('String typed out!');
       })
-      .pauseFor(2500)
+      .pauseFor(2000)
       .deleteAll()
       .callFunction(() => {
         console.log('All strings were deleted');
@@ -55,7 +55,7 @@ const TypeWriterText = () => {
 />
 
 </Title>
-<SubTitle>Be your teacher, I'm self-taught.</SubTitle>
+<SubTitle>Be your teacher, I'm self-taught. Social School to Teach Programming</SubTitle>
 </>
   );
 };

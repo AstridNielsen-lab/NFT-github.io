@@ -23,7 +23,7 @@ align-items: center;
 const Box = styled.div`
 width: 50%;
 height: 100%;
-dislplay: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
