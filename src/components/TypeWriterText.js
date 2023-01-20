@@ -80,7 +80,7 @@ const TypeWriterText = () => {
 />
 
 </Title>
-<SubTitle>Discovering your self-taught side </SubTitle>
+<SubTitle>Discovering your self-taught side</SubTitle>
 <ButtonContainer>
 <Button text="Explore" link="#about" />
 </ButtonContainer>
