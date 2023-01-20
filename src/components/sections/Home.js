@@ -29,7 +29,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 `
-const rotate = keyframes.rotate`
+const rotate = keyframes`
 100%{
   transform: rotate(1turn);
 }
