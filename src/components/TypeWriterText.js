@@ -20,7 +20,7 @@ span{
     color: orange;
  }
 .text-3{
-    color: red;
+    color: blue;
  }
 `;
 const SubTitle = styled.h3`
@@ -47,6 +47,21 @@ const TypeWriterText = () => {
       })
       .pauseFor(2000)
       .deleteAll()
+
+      typewriter.typeString(`<span class= text-2>⚡successfully transported abductees</span>`)
+      .callFunction(() => {
+        console.log('String typed out!');
+      })
+      .pauseFor(2000)
+      .deleteAll()
+
+      typewriter.typeString(`<span class= text-3>completed knowledge transfer⚡</span>`)
+      .callFunction(() => {
+        console.log('String typed out!');
+      })
+      .pauseFor(2000)
+      .deleteAll()
+
       .callFunction(() => {
         console.log('All strings were deleted');
       })
