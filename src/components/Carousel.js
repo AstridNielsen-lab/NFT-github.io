@@ -3,8 +3,11 @@ import styled from 'styled-components'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/effect-cards"
+import "swiper/css/pagination"
+import "swiper/css/navigation"
 
-import { EffectCards } from "swiper";
+
+import { Pagination, Navigation, AutoPlay, EffectCards } from "swiper";
 
 
 import img1 from '../assets/Nfts/bighead-1.svg';
@@ -29,6 +32,12 @@ height: 70vh;
 
 .swiper-slide{
   background-color: ${props => props.theme.carouselColor};
+  border-radius: 20px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 `
 
@@ -36,9 +45,16 @@ const Carousel = () => {
   return (
     <Container>
         <Swiper
+        autoplay={{
+          delay:2000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          type:'fraction',
+        }}
         effect={"cards"}
         grabCursor={true}
-        modules={[EffectCards]}
+        modules={[EffectCards,Pagination, Navigation, AutoPlay]}
         className="mySwiper"
       >
         <SwiperSlide> <img src={img1} alt="The Weirdos" />  </SwiperSlide>
