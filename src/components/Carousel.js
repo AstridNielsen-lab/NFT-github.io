@@ -6,7 +6,7 @@ import "swiper/css/effect-cards"
 
 import { EffectCards } from "swiper";
 
-import img from '../assets/Nfts/bighead.svg';
+
 import img1 from '../assets/Nfts/bighead-1.svg';
 import img2 from '../assets/Nfts/bighead-2.svg';
 import img3 from '../assets/Nfts/bighead-3.svg';
@@ -16,6 +16,7 @@ import img6 from '../assets/Nfts/bighead-6.svg';
 import img7 from '../assets/Nfts/bighead-7.svg';
 import img8 from '../assets/Nfts/bighead-8.svg';
 import img9 from '../assets/Nfts/bighead-9.svg';
+import img10 from '../assets/Nfts/bighead-10.svg';
 
 const Container = styled.div`
 width: 25vw;
@@ -24,6 +25,10 @@ height: 70vh;
 .swiper{
     width: 100%;
     height: 100%;
+}
+
+.swiper-slide{
+  background-color: ${props => props.theme.carouselColor};
 }
 `
 
@@ -45,6 +50,7 @@ const Carousel = () => {
         <SwiperSlide> <img src={img7} alt="The Weirdos" />  </SwiperSlide>
         <SwiperSlide> <img src={img8} alt="The Weirdos" />  </SwiperSlide>
         <SwiperSlide> <img src={img9} alt="The Weirdos" />  </SwiperSlide>
+        <SwiperSlide> <img src={img10} alt="The Weirdos" />  </SwiperSlide>
       </Swiper>
     </Container>
   )
