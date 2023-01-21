@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Carousel from '../Carousel'
 
 
 const Section= styled.section`
@@ -35,7 +36,7 @@ const About = () => {
     return (
       <Section>
           <Container>
-              <Box> Carousel </Box>
+              <Box> <Carousel /> </Box>
               <Box> Text </Box>
             </Container>
       </Section>
