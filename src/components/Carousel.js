@@ -36,34 +36,31 @@ height: 70vh;
   justify-content: center;
   align-items: center;
 }
-
-.swiper.button.next{
+.swiper-button-next {
   color: ${props => props.theme.text};
   right: 0;
-  width: 4rem;
-  top: 60%;
 
   background-image: url(${Arrow});
   background-position: center;
   background-size: cover;
+  width: 4rem;
 
-  &:after{
+  &:after {
     display: none;
   }
 }
 
-.swiper.button.prev{
+.swiper-button-prev {
   color: ${props => props.theme.text};
   left: 0;
-  width: 4rem;
-  transform: rotate(180deg);
-  top: 60%;
 
   background-image: url(${Arrow});
   background-position: center;
   background-size: cover;
+  transform: rotate(180deg);
+  width: 4rem;
 
-  &:after{
+  &:after {
     display: none;
   }
 `
@@ -89,16 +86,16 @@ const Carousel = () => {
 
         className="mySwiper"
       >
-        <SwiperSlide> <img src={img1} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img2} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img3} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img4} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img5} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img6} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img7} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img8} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img9} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img10} alt="The Weirdos" /> </SwiperSlide>
+        <SwiperSlide> <img src={img1} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img2} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img3} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img4} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img5} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img6} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img7} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img8} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img9} alt="Disparat NFT" />  </SwiperSlide>
+        <SwiperSlide> <img src={img10} alt="Disparat NFT" /> </SwiperSlide>
       </Swiper>
     </Container>
   )

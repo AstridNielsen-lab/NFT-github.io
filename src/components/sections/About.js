@@ -77,7 +77,7 @@ const About = () => {
               <Box>
                 <Title>Welcome to Disparat NFT</Title>
                 <SubText>
-                O clube Disparat NFT é uma coleção privada de colecionáveis digitais exclusivos de NFTs.<br>O Disparat NFT é armazenado como tokens ERC-721 no Ethereum Blockchain e hospedado no IPFS.</br>
+                O clube Disparat NFT é uma coleção privada de colecionáveis digitais exclusivos de NFTs.O Disparat NFT é armazenado como tokens ERC-721 no Ethereum Blockchain e hospedado no IPFS.
                 </SubText>
                 <SubTextLight>
                 com mais de 200 características de desenho de mão, cada NFT é único e vem com uma associação a um grupo exclusivo de investidores de sucesso. Junte-se a uma comunidade ambiciosa em constante crescimento com múltiplos benefícios e utilidades.
