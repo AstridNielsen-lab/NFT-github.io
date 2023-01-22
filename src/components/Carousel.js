@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import "swiper/css/effect-cards"
-import "swiper/css/pagination"
-import "swiper/css/navigation"
-
-
-import { Pagination, Navigation, AutoPlay, EffectCards } from "swiper";
+import { Autoplay, EffectCards, Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-cards";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
 
 
 import img1 from '../assets/Nfts/bighead-1.svg';
@@ -24,17 +23,13 @@ import img10 from '../assets/Nfts/bighead-10.svg';
 const Container = styled.div`
 width: 25vw;
 height: 70vh;
-
 .swiper{
     width: 100%;
     height: 100%;
 }
-
 .swiper-slide{
   background-color: ${props => props.theme.carouselColor};
   border-radius: 20px;
-
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,15 +41,15 @@ const Carousel = () => {
     <Container>
         <Swiper
         autoplay={{
-          delay:2000,
-          disableOnInteraction: false,
+        delay:2000,
+        disableOnInteraction: false,
         }}
         pagination={{
           type:'fraction',
         }}
         effect={"cards"}
         grabCursor={true}
-        modules={[EffectCards,Pagination, Navigation, AutoPlay]}
+        modules={[Autoplay ,EffectCards, Pagination, Navigation ]}
         className="mySwiper"
       >
         <SwiperSlide> <img src={img1} alt="The Weirdos" />  </SwiperSlide>
@@ -66,7 +61,7 @@ const Carousel = () => {
         <SwiperSlide> <img src={img7} alt="The Weirdos" />  </SwiperSlide>
         <SwiperSlide> <img src={img8} alt="The Weirdos" />  </SwiperSlide>
         <SwiperSlide> <img src={img9} alt="The Weirdos" />  </SwiperSlide>
-        <SwiperSlide> <img src={img10} alt="The Weirdos" />  </SwiperSlide>
+        <SwiperSlide> <img src={img10} alt="The Weirdos" /> </SwiperSlide>
       </Swiper>
     </Container>
   )
