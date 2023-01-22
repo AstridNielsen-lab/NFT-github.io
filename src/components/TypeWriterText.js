@@ -33,6 +33,12 @@ const SubTitle = styled.h3`
   width: 80%;
   align-self: flex-start;
   `
+  const ButtonContainer = styled.div`
+  width: 80%;
+  align-self: flex-start;
+  margin: 1rem auto;
+`
+
 const ButtonContainer = styled.div`
   width: 80%;
   align-self: flex-start;
