@@ -25,6 +25,18 @@ a{
     color: inherit;
     text-decoration:none;
 }
+
+.logodispa {
+    width: 54px;
+    height: 54px;
+    
+}
+
+p {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 `
 
 export default GlobalStyles;
