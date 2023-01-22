@@ -45,7 +45,7 @@ margin: 0 auto;
 `
 
 const SubText = styled.p`
-font-size: ${props => props.theme.fontxxl};
+font-size: ${props => props.theme.fontlg};
 color: ${props => props.theme.body};
 align-self: flex-start;
 width: 80%;
@@ -54,7 +54,7 @@ font-weight: 400;
 
 `
 
-const subTextLight = styled.p`
+const SubTextLight = styled.p`
 font-size: ${props => props.theme.fontmd};
 color: ${props => `rgba(${props.theme.bodyRgba}, 0.6)`};
 align-self: flex-start;
@@ -63,7 +63,11 @@ margin: 1rem auto;
 font-weight: 400;
 
 `
-
+const ButtonContainer = styled.div`
+width: 80%;
+align-self: flex-start;
+margin: 1rem auto;
+`
 
 const About = () => {
     return (
@@ -71,13 +75,13 @@ const About = () => {
           <Container>
               <Box> <Carousel /> </Box>
               <Box>
-                <title>Welcome to Disparat NFT Collections</title>
-                <subText>
-                O clube Disparat NFT é uma coleção privada de colecionáveis digitais exclusivos de NFTs. O Disparat NFT é armazenado como tokens ERC-721 no Ethereum Blockchain e hospedado no IPFS.
-                </subText>
-                <subTextLight>
+                <Title>Welcome to Disparat NFT</Title>
+                <SubText>
+                O clube Disparat NFT é uma coleção privada de colecionáveis digitais exclusivos de NFTs.<br>O Disparat NFT é armazenado como tokens ERC-721 no Ethereum Blockchain e hospedado no IPFS.</br>
+                </SubText>
+                <SubTextLight>
                 com mais de 200 características de desenho de mão, cada NFT é único e vem com uma associação a um grupo exclusivo de investidores de sucesso. Junte-se a uma comunidade ambiciosa em constante crescimento com múltiplos benefícios e utilidades.
-                </subTextLight>
+                </SubTextLight>
                 <ButtonContainer><ThemeProvider theme={dark}>
                 <Button text="ENTRE EM NOSSO DISCORD" link="#"></Button>
                 </ThemeProvider>
