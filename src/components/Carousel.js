@@ -43,6 +43,7 @@ height: 70vh;
   background-image: url(${Arrow});
   background-position: center;
   background-size: cover;
+  top: 60%;
   width: 4rem;
 
   &:after {
@@ -57,6 +58,7 @@ height: 70vh;
   background-image: url(${Arrow});
   background-position: center;
   background-size: cover;
+  top: 60%;
   transform: rotate(180deg);
   width: 4rem;
 
