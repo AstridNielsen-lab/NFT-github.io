@@ -9,7 +9,7 @@ position: relative;
 background-color: ${props => props.theme.text};
 `
 
-const container = Styled.div`
+const Container = Styled.div`
 width: 75%;
 min-height: 80vh;
 margin: 0 auto;
@@ -18,10 +18,10 @@ margin: 0 auto;
 
 const Home = () => {
   return (
-    <container> 
+    <Container> 
       <h1>Text</h1>
       <h1>Video</h1>
-    </container>
+    </Container>
   )
 }
 
