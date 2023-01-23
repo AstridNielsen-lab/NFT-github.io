@@ -41,7 +41,7 @@ position: relative;
 
 const Button = ({text, link}) => {
   return (
-    <a href={'https://discord.gg/Q87eT73pPX'} aria-label={text} target="_blank" rel="noreferrer" >
+    <a href={'https://www.binance.com/en/nft/my-nfts/disparattechno-0b912ff682faf6da0863d45e1dbd9500'} aria-label={text} target="_blank" rel="noreferrer" >
 <Btn>{'Discord Coding Community College'}</Btn>
 </a>
   )
