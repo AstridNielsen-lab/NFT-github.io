@@ -18,11 +18,13 @@ margin: 0 auto;
 
 const Home = () => {
   return (
+    <Section>
     <Container> 
       <h1>Text</h1>
       <h1>Video</h1>
     </Container>
-  )
+    </Section>
+  );
 }
 
 export default Home;

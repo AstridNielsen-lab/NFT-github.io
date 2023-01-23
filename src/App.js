@@ -2,14 +2,14 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './styles/GlobalStyles'
 import { light } from './styles/Themes'
 
-import { Navigation } from './components/Navigation';
-import { Home } from './components/sections/Home';
-import { Roadmap } from './components/sections/Roadmap';
-import { Showcase } from './components/sections/Showcase';
-import { Team } from './components/sections/Team';
-import { About } from './components/sections/About';
-import { Faq } from './components/sections/Faq';
-import { Footer } from './components/Footer';
+import { Navigation } from './Navigation';
+import { Home } from './Home';
+import { Roadmap } from './Roadmap';
+import { Showcase } from './Showcase';
+import { Team } from './Team';
+import { About } from './About';
+import { Faq } from './Faq';
+import { Footer } from './Footer';
 
 function App() {
   return (
