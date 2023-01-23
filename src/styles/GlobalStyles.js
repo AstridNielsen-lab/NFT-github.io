@@ -1,42 +1,29 @@
-import { createGlobalStyle } from "styled-components";
-import "@fontsource/akaya-telivigala"
-import "@fontsource/sora"
+import { GlobalStyleComponent } from "styled-components"
+import "@fontsource/dancing-script"
 
 
-
-
-const GlobalStyles = createGlobalStyle`
-
+const GlobalStyles = createGlobalStyles`
 *,*::before,*::after{
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Sora', sans-serif;
+body {
+    font-family: "Dancing Script", cursive;
     overflow-x: hidden;
+
 }
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+
 }
-a{
+
+a {
     color: inherit;
-    text-decoration:none;
+    text-decoration: none;
 }
-
-.logodispa {
-    width: 54px;
-    height: 54px;
-    
-}
-
-p {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 `
 
 export default GlobalStyles;

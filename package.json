@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@fontsource/akaya-telivigala": "^4.5.8",
+    "@fontsource/dancing-script": "^4.5.11",
     "@fontsource/sora": "^4.5.10",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
