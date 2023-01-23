@@ -31,12 +31,12 @@ const SubTitle = styled.h3`
   font-weight: 600;
   margin-bottom: 1rem;
   width: 80%;
-  align-self: flex-start;
+  align-self: flex-start
   `
 const ButtonContainer = styled.div`
   width: 80%;
   align-self: flex-start;
-  margin: 1rem auto;
+  margin: 0 auto;
 `
 const TypeWriterText = () => {
   return (
@@ -83,7 +83,7 @@ const TypeWriterText = () => {
         <Button text='Explore' link="#about" />
       </ButtonContainer>
     </>
-  );
+  )
 };
 
 export default TypeWriterText;
