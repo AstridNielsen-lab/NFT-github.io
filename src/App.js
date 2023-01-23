@@ -1,15 +1,15 @@
-import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./styles/GlobalStyles";
-import { light } from "./styles/Themes";
+import { ThemeProvider } from "styled-components"
+import GlobalStyles from "../src/styles/GlobalStyles"
+import { light } from "./styles/Themes"
 
-import { Navigation } from "./components/Navigation";
-import { Home } from "./components/sections/Home";
-import { Roadmap } from "./components/sections/Roadmap";
-import { Showcase } from "./components/sections/Showcase";
-import { Team } from "./components/sections/Team";
-import { About } from "./components/sections/About";
-import { Faq } from "./components/sections/Faq";
-import { Footer } from "./components/Footer";
+import { Navigation } from "../src/components/Navigation"
+import { Home } from "../src/components/sections/Home"
+import { Roadmap } from "../src/components/sections/Roadmap"
+import { Showcase } from "../src/components/sections/Showcase"
+import { Team } from "../src/components/sections/Team"
+import { About } from "../src/components/sections/About"
+import { Faq } from "../src/components/sections/Faq"
+import { Footer } from "../src/components/Footer"
 
 function App() {
   return (

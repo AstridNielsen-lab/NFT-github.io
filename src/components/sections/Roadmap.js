@@ -6,4 +6,4 @@ const Roadmap = () => {
   )
 }
 
-export default Roadmap;
+export default Roadmap

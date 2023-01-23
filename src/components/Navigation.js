@@ -1,5 +1,8 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
+import Navigation from '../components/Navigation'
+
+import Logo from "../components/Logo";
 
 
 const Section = styled.section`
@@ -31,13 +34,19 @@ cursor: pointer;
 &::after {
   content: " ";
   display: block;
-  width: 100%;
+  width: 0%;
   height: 2px;
   background: ${props => props.theme.text};
   transition: width 0.3s ease;
-}`
 
-const Navigation = () => {
+}
+
+&hover::after{
+  width: 100%
+}
+`
+
+const Navigation () {
   return (
 
     <Section>
@@ -51,11 +60,10 @@ const Navigation = () => {
           <MenuItem>Faq</MenuItem>
           <MenuItem>About</MenuItem>
         </Menu>
-        <h2>Menu</h2>
-        <h2>Button</h2>
+        <Button text="Connect Wallet" link="https://google.com" />
       </NavBar>
     </Section>
-  )
+  );
 }
 
 export default Navigation;
