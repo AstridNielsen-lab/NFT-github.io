@@ -75,7 +75,7 @@ const About = () => {
           <Container>
               <Box> <Carousel /> </Box>
               <Box>
-                <Title>Welcome to Disparat NFT </Title>
+                <Title>Welcome to Fuel Disparat NFT </Title>
                 <SubText>
                 The NFT Fuel Disparat Club, will be our fuel, when you buy the NFTs, you are helping our content creators, the NFT Fuel, is a private collection of exclusive digital collectibles. The Disparat NFT Fuel, is stored as ERC-721 tokens in the Ethereum Blockchain and hosted on IPFS.
                 </SubText>
