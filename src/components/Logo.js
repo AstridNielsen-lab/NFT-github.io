@@ -1,26 +1,24 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
+import React from 'react';
+import Styled from 'styled-components';
 
-const LogoText = styled.h1`
-font-family: 'Akaya Telivigala', cursive;
-font-size: ${props => props.theme.fontxxl};
-color: ${props => props.theme.text};
+
+const LogoText = Styled.h1`
+font-family: "Dancing-Script", cursive;
+font-size: ${props =>props.theme.fontxxxl}
+color: ${props => props.theme.text}
 transition: all 0.2s ease;
 
 &:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 `
 
 const Logo = () => {
-    return (
-      <LogoText>
-        <Link to="/">
-        🐞Disparat
-        </Link>
-      </LogoText>
-    )
+  return (
+    <LogoText>
+          
+    </LogoText>
+  )
 }
 
 export default Logo

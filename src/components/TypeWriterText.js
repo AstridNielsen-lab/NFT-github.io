@@ -36,7 +36,7 @@ const SubTitle = styled.h3`
 const ButtonContainer = styled.div`
   width: 80%;
   align-self: flex-start;
-  margin: 1rem auto;
+  margin: 0 auto;
 `
 const TypeWriterText = () => {
   return (

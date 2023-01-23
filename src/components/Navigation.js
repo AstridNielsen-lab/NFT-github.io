@@ -3,16 +3,19 @@ import styled from 'styled-components'
 import Button from './Button'
 import Logo from './Logo'
 
+
+
 const Section = styled.section`
 width: 100vw;
 background-color: ${props => props.theme.body};
 `
+
 const NavBar = styled.nav`
 display: flex;
 justify-content: space-between;
 align-items: center;
 
-width: 85%;
+width: 80%;
 height: ${props => props.theme.navHeight};
 margin: 0 auto;
 `
@@ -20,46 +23,47 @@ const Menu = styled.ul`
 display: flex;
 justify-content: space-between;
 align-items: center;
-list-style:none;
+list-style: none;
 `
 
-const MenuItem = styled.li`
+const MenuItem = styled.il`
 margin: 0 1rem;
 color: ${props => props.theme.text};
 cursor: pointer;
 
-&::after{
-  content: ' ';
+&::after {
+  content: " ";
   display: block;
   width: 0%;
   height: 2px;
   background: ${props => props.theme.text};
   transition: width 0.3s ease;
-}
-&:hover::after{
-  width: 100%;
 
 }
 
+&hover::after{
+  width: 100%
+}
 `
-const Navigation = () => { 
+
+const Navigation = () => {
   return (
 
-   <Section>
-     <NavBar>
-       <Logo />
-       <Menu>
-         <MenuItem>Home</MenuItem>
-         <MenuItem>About</MenuItem>
-         <MenuItem>Roadmap</MenuItem>
-         <MenuItem>Showcase</MenuItem>
-         <MenuItem>Team</MenuItem>
-         <MenuItem>Faq</MenuItem>           
-         </Menu>   
-         <Button/>
-
-        </NavBar>
-      </Section>
+    <Section>
+      <NavBar>
+        <Logo />
+        <Menu>
+          <MenuItem>Home</MenuItem>
+          <MenuItem>Roadmap</MenuItem>
+          <MenuItem>Showcase</MenuItem>
+          <MenuItem>Team</MenuItem>
+          <MenuItem>Faq</MenuItem>
+          <MenuItem>About</MenuItem>
+        </Menu>
+        <Button />
+        
+      </NavBar>
+    </Section>
   )
 }
 
