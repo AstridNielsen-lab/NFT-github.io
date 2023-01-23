@@ -1,8 +1,8 @@
-import { GlobalStyleComponent } from "styled-components"
+import { createGlobalStyle } from "styled-components"
 import "@fontsource/dancing-script"
 
 
-const GlobalStyles = createGlobalStyles`
+const GlobalStyles = createGlobalStyle`
 *,*::before,*::after{
     margin: 0;
     padding: 0;
@@ -26,4 +26,4 @@ a {
 }
 `
 
-export default GlobalStyles;
+export default GlobalStyles

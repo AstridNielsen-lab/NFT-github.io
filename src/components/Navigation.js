@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Navigation from '../components/Navigation'
-
-import Logo from "../components/Logo";
+import Logo from "../components/Logo"
+import Button from "../components/Button"
 
 
 const Section = styled.section`
@@ -46,7 +45,7 @@ cursor: pointer;
 }
 `
 
-const Navigation () {
+const Navigation = () => {
   return (
 
     <Section>
@@ -60,10 +59,11 @@ const Navigation () {
           <MenuItem>Faq</MenuItem>
           <MenuItem>About</MenuItem>
         </Menu>
-        <Button text="Connect Wallet" link="https://google.com" />
+        <Button />
+        
       </NavBar>
     </Section>
-  );
+  )
 }
 
 export default Navigation;
