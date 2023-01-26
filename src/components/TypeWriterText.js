@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Typewriter from 'typewriter-effect';
-import Button from './Button';
+
 
 const Title = styled.h2`
 font-size: ${props => props.theme.fontxxl};
@@ -15,13 +15,13 @@ span{
   font-family: "Akaya Telivigala", cursive;
  }
 .text-1{
-    color: green;
+    color: blue;
  }
 .text-2{
     color: orange;
  }
 .text-3{
-    color: blue;
+    color: red;
  }
 `;
 const SubTitle = styled.h3`
@@ -79,9 +79,7 @@ const TypeWriterText = () => {
 
       </Title>
       <SubTitle>Discovering your self-taught side</SubTitle>
-      <ButtonContainer>
-        <Button text='Explore' link="#about" />
-      </ButtonContainer>
+      
     </>
   )
 };

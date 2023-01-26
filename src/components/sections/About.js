@@ -2,15 +2,15 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import Carousel from '../Carousel'
 import Button from '../Button'
-import {dark} from '../../styles/Themes';
+import {dark} from '../../styles/Themes'
+
+
 
 
 const Section= styled.section`
 min-height: 100vh;
 width: 100%;
 background-color: ${props => props.theme.text};
-display: flex;
-color: ${props => props.theme.body};
 display: flex;
 justify-content: center;
 align-items: center; 
@@ -82,11 +82,12 @@ const About = () => {
                 <SubTextLight>
                 With many AI design features, each NFT is unique and comes with an exclusive scheduled help group membership among other investment-friendly enhancements. Join an ever-growing ambitious community with multiple benefits and utilities.
                 </SubTextLight>
-                <ButtonContainer><ThemeProvider theme={dark}>
-                <Button text="ENTRE EM NOSSO DISCORD" link="#"></Button>
+                <ButtonContainer>
+                <ThemeProvider theme={dark}>
+                <Button text="JOIN OUR DISCORD" link="#" />
                 </ThemeProvider>
                 </ButtonContainer>
-              </Box>
+                </Box>
             </Container>
       </Section>
   )

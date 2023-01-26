@@ -39,12 +39,12 @@ height: 70vh;
 .swiper-button-next {
   color: ${props => props.theme.text};
   right: 0;
-
+  width: 4rem;
   background-image: url(${Arrow});
   background-position: center;
   background-size: cover;
   top: 60%;
-  width: 4rem;
+  
 
   &:after {
     display: none;
@@ -54,13 +54,14 @@ height: 70vh;
 .swiper-button-prev {
   color: ${props => props.theme.text};
   left: 0;
-
+  width: 4rem;
+  transform: rotate(180deg);
   background-image: url(${Arrow});
   background-position: center;
   background-size: cover;
   top: 60%;
-  transform: rotate(180deg);
-  width: 4rem;
+  
+  
 
   &:after {
     display: none;
